@@ -6,7 +6,7 @@ let text = document.querySelector('.text');
 document.addEventListener("mousemove", function(e){
     text.style.left = e.pageX + 'px';
     text.style.top = e.pageY + 'px';
-    text.style.transform = `rotate(${e.pageX}deg)`;
+    text.style.transform = `rotate(${e.pageX / 2}deg)`;
 });
 
 
